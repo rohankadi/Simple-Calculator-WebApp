@@ -21,6 +21,12 @@ This is a simple web-based calculator application created using HTML, CSS, and J
    - Clear: Press the Escape key.
    - Calculate: Press the Enter key or = key.
 
+##Demo
+![home](https://github.com/rohankadi/Simple-Calculator-WebApp/assets/118832951/b95f9462-b5a0-4d93-a05f-588e26df27a2)
+![operations](https://github.com/rohankadi/Simple-Calculator-WebApp/assets/118832951/d65ca123-52c5-45cc-878c-b1ae8ca92994)
+![result](https://github.com/rohankadi/Simple-Calculator-WebApp/assets/118832951/b00ce7a6-070c-452e-b476-085afbf970da)
+
+
 ## Files and Structure
 
 - **index.html:** The main HTML file containing the structure of the calculator.
