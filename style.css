@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    Background: #240046;
+    display: grid;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.calculator{
+    background: #023e7d;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.219);
+    padding: 10px;
+    margin: auto;
+}
+
+.calculator form input{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #5f0000;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-family: Nunito;
+    margin: 10px;
+}
+
+.calculator form .NumpadBtns{
+    background-color: #012a4a;
+}
+
+form input.symbols{
+    background-color: #d18d1e;
+}
+
+.calculator form .equal{
+    width: 145px;
+    background-color: #005f08;
+}
+
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+form .display input{
+    height: 80px;
+    border-radius: 15px;
+    background: #218380;
+    color: white;
+    box-shadow: 0 0 10px 3px #00000033;
+    padding:20px;
+    flex: 2;
+    font-size: 45px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.calculator form input:hover{
+    box-shadow: 0px 0px 5px 3px #00000025;
+}
+
+.calciname{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffffe4;
+    font-weight: 550;
+    text-shadow: none;
+    margin-top: 5px;
+    box-shadow: 2px 0 5px #d18d1e;
+    max-width: 100px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 15px;
+}
+
+.calci-name{
+    display: flex;
+}
+
+.scanbar{
+    width: 75px;
+    height: 20px;
+    background-color: #ecdfdf;
+    margin-left: auto;
+    border-radius: 5px;
+    border: 1.4px solid;
+    margin-right: 10px;
+}
+
